@@ -233,6 +233,14 @@ if &t_Co > 255
 
    hi SpecialKey      ctermfg=59
    
+   " Ctags highlighting
+   hi Class                 ctermfg=81           cterm=bold
+   hi AClass                ctermfg=81           cterm=bold
+   hi CClass                ctermfg=81           cterm=bold
+   hi Method                ctermfg=119
+   hi CTagsDefinedName      ctermfg=125          cterm=bold
+   hi CTagsGlobalVariable   ctermfg=178
+
    if exists("g:rehash256") && g:rehash256 == 1
        hi Normal       ctermfg=252 ctermbg=234
        hi CursorLine               ctermbg=236   cterm=none
